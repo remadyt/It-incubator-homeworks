@@ -5,7 +5,7 @@ type PropsType = {
     avatar: string,
     name: string,
     message: string,
-    time:string,
+    time: string,
 }
 
 function Message(props: PropsType) {
