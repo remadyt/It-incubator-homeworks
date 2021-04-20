@@ -28,7 +28,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         } else {
             setError('name is required')
         }
-
     }
 
     const totalUsers = users.length

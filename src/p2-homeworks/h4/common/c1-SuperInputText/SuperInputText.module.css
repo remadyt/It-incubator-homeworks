@@ -1,10 +1,52 @@
 .superInput {
+    display: block;
+    appearance: none;
+    outline: 0;
+    border: 1px solid #000000;
+    background-color: white;
+    width: 250px;
+
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    font-size: 18px;
+
+    color: #000000;
+
+    transition-duration: 0.25s;
+    font-weight: 300;
 
 }
 
+.superInput:hover{
+     background-color: white;
+ }
+
+.superInput:focus{
+     background-color: #0eb6d7;
+     width: 300px;
+ }
+
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 1px solid #f10000;
+    background: #ffffff;
+    display: block;
+    appearance: none;
+    outline: 0;
+    width: 250px;
+
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    font-size: 18px;
+
+    color: #000000;
+
+    transition-duration: 0.25s;
+    font-weight: 300;
+
 }
 
 .error {
