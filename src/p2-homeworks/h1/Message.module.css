@@ -39,7 +39,7 @@
 
 .time {
     color: #395236;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 6px;
 }
 
@@ -49,9 +49,9 @@
     border: 0 solid transparent;
     border-top: 11px solid #082103;
     border-radius: 0 20px 0;
-    width: 15px;
-    height: 12px;
+    width: 25px;
+    height: 25px;
     transform: rotate(135deg);
-    top: 118px;
-    left: 61px;
+    top: 165px;
+    left: 55px;
 }
