@@ -1,0 +1,11 @@
+.spanPen {
+    position: relative;
+}
+.spanPen::before {
+    content: url("../../img/pen.png");
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -3px;
+    right: -25px;
+}
