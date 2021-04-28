@@ -1,9 +1,14 @@
 import React from 'react';
+import HW7 from "../../h7/HW7";
 
 const Junior = () => {
     return (
         <div>
-            HW6-11
+            <HW7 />
+            {/*<HW8 />*/}
+            {/*<HW9 />*/}
+            {/*<HW10 />*/}
+            {/*<HW1 />*/}
         </div>
     );
 };
